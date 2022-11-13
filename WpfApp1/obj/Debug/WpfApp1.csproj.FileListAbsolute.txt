@@ -14,3 +14,19 @@ C:\Users\User\Documents\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.Genera
 C:\Users\User\Documents\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 C:\Users\User\Documents\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\User\Documents\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Новая папка\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Новая папка\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Новая папка\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+D:\Новая папка\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Новая папка\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Новая папка\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Новая папка\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb

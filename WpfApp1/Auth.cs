@@ -13,17 +13,18 @@ namespace WpfApp1
         //создаем публичный метод 
         public string TestPassword(string password)
         {
+          
             //Проверяем пароль на длину строки от 7 до 10 включительно
             if (password.Length >= 7 && password.Length <= 10)
             {
                 //переменная для проверки цифры
-                bool IsDigit = false;
+                bool IsDigit = false;   
                 //переменная для проверки верхнего регистра
-                bool IsUpper = false;
+                bool IsUpper = false; 
                 //переменная для проверки нижнего регистра
-                bool IsLower = false;
+                bool IsLower = false; 
                 //переменная для проверки спецсимволов
-                bool IsSpec = false;
+                bool IsSpec = false;  
                 //цикл по всем символам пароля
                 foreach (var item in password)
                 {
@@ -69,13 +70,45 @@ namespace WpfApp1
                     return "Пароль должен содержать спецсимволы!";
                 }
                 //возвращает (выходит) из метода с сообщением в квадратных ковычках
-                return "Пароль отличный!";
+                
+                for (int i = 0; i < password.Length; i++)
+                {
+                    if (password[i] == password[i + 1])
+                    {
+                        return "В пароле не должно быть подряд идущих повторяющихся символов!";
+                    }
+                    else
+                    {
+                        return "Пароль отличный!";
+                    }
+                }
+                return "Пароль отличный";
             }
-            //если длина пароля меньше 7 или больше 10 то вернем сообщение об ошибке
             else
             {
-                return "Неверная длина пароля!";
+                if (password.Length < 7)
+                {
+                    return "Пароль короткий!";
+                }
+                else
+                {
+                    if (password.Length > 10)
+                    {
+                        return "Пароль длинный!";
+
+                    }
+                    else
+                    {
+                        return "Пароль отличный";
+                    }
+                }
+                
             }
+          
+
+
+
         }
     }
 }
+
